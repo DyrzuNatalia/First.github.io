@@ -1,0 +1,173 @@
+
+.testimonials,
+.slider,
+.slider_wrapper,
+.slider_slide,
+.slider_btn {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.testimonials {
+  
+  display: block;
+  border: none;
+  width: auto;
+  height: 342px;
+    
+}
+.testimonials_title{
+padding-top: 40px;
+  font-family: 'Montserrat',Bold sans-serif;
+    font-weight: 500;
+    font-size: 20,54px;
+    letter-spacing: 5px; 
+    color: #828181;
+text-align: center;
+position: relative;
+    padding-bottom: 16px;
+}
+
+.testimonials_title::after {
+  
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #828181;
+  
+}
+.testimonials_description {
+font-family: 'Montserrat Light', sans-serif;
+font-weight: 300;
+font-size: 16px;
+text-align: center;
+padding-top: 0;
+}
+
+
+
+.slider {
+  
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  
+}
+
+
+.slider_wrapper {
+  
+  position: relative;
+  background-color: #fff;
+  
+}
+.slider_btn {
+  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #e0dfdf;
+  opacity: 0.5;
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  
+}
+.slider_content {
+  
+  position: relative;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+justify-content:space-around;
+    flex-direction: column;
+}
+.testimonials_slogan,
+.author
+{
+font-family: "Proxima Nova Regular", sans-serif;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+.author{
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+    height: 50px;
+    text-align: left;
+    vertical-align: middle;
+background: url(../img/herp_1.png) no-repeat;
+    padding-left: 55px;
+   padding-top: 5px; 
+}
+.prof {
+color: #cccccc;
+   
+}
+
+
+/*
+.prof::before{
+background:  url(../img/herp.png) no-repeat;
+    border: 2px solid #cccccc;
+    border-radius: 100%;
+}
+*/
+.slider_btn::before {
+  
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  
+}
+
+
+
+.slider_btn-prev {
+  
+  left: 30px;
+  
+}
+
+.slider_btn-next {
+  
+  right: 30px;
+  
+}
+
+@media only screen  and (min-width: 1400px) {
+  
+  .slider_btn-prev {
+
+    left: calc((100vw - 11700px) / 4);
+    margin-left: -50px;
+
+  }
+
+  .slider_btn-next {
+
+    right: calc((100vw - 1170px) / 4);
+    margin-right: -50px;
+
+  }
