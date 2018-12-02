@@ -1,0 +1,141 @@
+.whatdo,
+.whatdo_title,
+.whatdo_description,
+.whatdo_slider,
+.contentslider,
+.contentslider_public,
+.public,
+.public_image {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+.wrapper{
+    height: 578px;
+    left: 0;
+    right: 0;
+
+}
+.whatdo {
+height: 600px;
+background-color: transparent;
+color:#828181;    
+  
+}
+
+.whatdo_title,
+.whatdo_description{
+width: 770px;
+margin: 0 auto;
+text-align: center; 
+}
+
+.whatdo_title{
+    position: relative;
+margin-top: 43px;
+    margin-bottom: 15px;
+    padding-bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20,54px;
+    letter-spacing: 5px; 
+    color: #828181;
+}
+.whatdo_description{
+font-family: 'Montserrat Light', sans-serif;
+font-weight: 300;
+font-size: 17px;
+}   
+
+.contentslider,
+.contentslider_public {
+  
+  list-style: none;
+  
+}
+.whatdo_slider{
+margin-top: 71px;
+    position: relative; 
+}
+
+.contentslider_public{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 293px;
+height: 335px;
+text-align: center;
+ position: relative;   
+}
+
+.contentslider{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.public_title{
+ font-family:'Montserrat Bold', sans-serif;
+font-weight: 600;
+font-size: 24px;
+}
+.public_description{
+font-family: 'Montserrat Light', sans-serif;
+font-weight: 300;
+font-size: 15px;
+}   
+.public_image{
+border: 1px solid #e1f3e1;
+    border-radius: 25px;
+    padding-bottom: 36px;
+    padding-top: 34px;
+    padding-right: 29px;
+    padding-left: 27px;
+    background-color:#e1f3e1; 
+} 
+.public_link{
+
+text-decoration:none;
+width: 80px;
+    background-color: #54d154;
+    border-radius: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    
+    
+
+}
+.public{
+position: relative;
+}
+.link_learn{
+position: absolute;
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.whatdo_title::after {
+  
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 70px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #828181;
+  
+}

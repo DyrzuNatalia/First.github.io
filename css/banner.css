@@ -1,0 +1,38 @@
+.banner{
+background:  url(../img/banner.jpg) no-repeat center top;
+  position: relative;
+  height: 660px;
+  border: none;
+  
+  background-color: #454545;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+   padding-top: 300px;
+   text-align: center;
+}
+.art
+{
+font-family: 
+    "Montserrat Bold" sans-serif;
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.btn {
+text-decoration: none;
+}
+.btn {
+display: inline-block;
+    vertical-align: middle;
+height: 35px;
+width: 215px;
+    background-color: #54d154;
+    border-radius: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+}

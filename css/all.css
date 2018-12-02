@@ -32,7 +32,7 @@ font-family: 'Montserat', sans-serif;
     color: #828181;
     border: 2px solid black;
     margin: 0 auto;
-    
+    min-width: 1170px;
 }
 .header-wrap {
 top: 0;
