@@ -176,8 +176,9 @@ margin: 0 auto;
 }
 
 .view_img {
- /* как сделать картинку по центру блока?*/
+
 }
+
 .btn-filter::after{
 content: "\2192";
 display: inline-block; 
