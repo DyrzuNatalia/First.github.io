@@ -9,3 +9,27 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+       url('../fonts/ProximaNova-Regular.woff') format('woff'),
+       url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+       url('../fonts/Gotham/Gotham-Bold/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+       url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat.eot');
+  src: url('../fonts/Montserrat.woff2') format('woff2'),
+       url('../fonts/Montserrat.woff') format('woff'),
+       url('../fonts/Montserrat.ttf') format('truetype'),
+       url('../fonts/Montserrat.svg#Gotham-Book') format('svg'),
+       url('../fonts/Montserrat.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
