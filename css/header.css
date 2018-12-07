@@ -165,11 +165,21 @@ left: 0;
   background-color: var(--background-color);
    
 }
-:
+
 .navigation_link:hover{
 color: #54d154;
 }
-
+.navigation_item:checked{
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+   content: "";
+  top: 0;
+  height: 3px;
+  background-color: var(--background-color);
+   font-weight: 500;
+}
 }
 .brand{
 padding-top: 5px;
