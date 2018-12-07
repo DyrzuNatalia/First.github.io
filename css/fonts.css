@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'NautilusPompilius';
-  src: url('../fonts/NautilusPampilius.eot');
-  src: url('../font/NautilusPampilius.eot?#iefix') format('embedded-opentype'),
-       url('../font/NautilusPampilius.woff2') format('woff2'),
-       url('../font/NautilusPampilius.woff') format('woff'),
-       url('../font/NautilusPampilius.ttf') format('truetype'),
-       url('../font/NautilusPampilius.svg') format('svg');
+  font-family: 'nautiluspompilius';
+  src: url('../fonts/nautiluspompilius.eot');
+  src: url('../font/nautiluspompilius.eot?#iefix') format('embedded-opentype'),
+       url('../font/nautiluspompilius.woff2') format('woff2'),
+       url('../font/nautiluspompilius.woff') format('woff'),
+       url('../font/nautiluspompilius.ttf') format('truetype'),
+       url('../font/nautiluspompilius.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

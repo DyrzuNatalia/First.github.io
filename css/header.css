@@ -187,7 +187,7 @@ padding-top: 5px;
 .brand_link {
   text-decoration: none;
   color: var(--color-text);
-font-family: 'Nautilus Pompilius', sans-serif ;
+font-family: 'nautiluspompilius', sans-serif ;
     font-size: 30px;
 }
 .search{
