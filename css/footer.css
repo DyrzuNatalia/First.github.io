@@ -32,7 +32,6 @@ width: 310px;
     padding-bottom: 30px;
 }
 .title_mini {
-    /*text-align: center;*/
     font-family: "Proxima Nova" sans-serif;
     font-size: 20px;
     font-weight: 200;
@@ -152,7 +151,7 @@ text-align: center;
 .contact_us input, textarea{
 background-color: #fff;
     opacity: 0.2;
-    width: 350px;
+    width: 320px;
    margin-bottom: 2px;
     padding-left: 4px;
     border: none;
@@ -174,7 +173,7 @@ border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
     background-color: #2b9b2b;
     opacity: 1;
-    color: #fff;
+    color: var(--color-text);
 }
 .contact_us input{
 height: 32px;
