@@ -1,0 +1,140 @@
+.team,
+.team_list,
+.team_photo,
+.social.team_wrapper,
+.footer_team
+{
+
+  margin: 0;
+  padding: 0;
+  
+}
+.team {
+position: relative;
+min-height: 575px;
+
+}
+.team_wrapper{
+    min-height: 425px;
+    left: 0;
+    right: 0;
+   margin: -25px 0 0px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+     background-color: var(--background-color);
+}
+
+.team_list,
+photo_img{
+list-style: none;
+}
+
+.team_title,
+.team_description
+{
+ color:#207b20;   
+}
+.team_title::after{
+background-color:#207b20;
+}
+.team_list{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+vertical-align: middle;
+    width: 920px;
+    height: 395px;
+    margin: 0 auto;
+}
+.team_photo {
+list-style: none;
+    
+}
+.social_link
+{
+text-decoration: none;
+}
+.social{
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85px;
+    height: 29px;
+    background-color: #fff ;
+    border-radius: 25px;
+    align-items: center;
+   text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.social_link{
+display: block;
+height: 20px;
+width: 20px;
+border-radius: 25%;
+text-align: center;
+float: left;
+}
+.icon1-link{
+    background: url(../img/media_3.png) no-repeat;
+}
+.icon2-link{
+background: url(../img/media_2.png) no-repeat;
+}
+.icon3-link{
+background: url(../img/Media_1.png) no-repeat;
+}
+.name{
+color: var(--color-text);
+text-align: center;
+}
+.photo_img{
+ padding-top: 10px;
+ 
+}
+.img_box{
+    position: relative;
+display: block;
+width: 128px;
+height: 128px;
+border-radius: 100px;
+overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 120px;
+}
+.img_membertwo{
+    width: 85%;
+    
+}
+
+.img_memberfive{
+width: 140%;
+position: absolute;
+right: -20px;
+}
+
+.social::before{
+content: '';
+position: absolute;
+height: 77px;
+width: 2px;
+background-color: #207b20;
+bottom: 80px;
+    
+}
+.footer_team{
+min-height: 90px;
+background-color: #3eba3e;
+text-align: center;
+    
+}
+.btn_sectionteam{
+margin-top: 25px;
+box-shadow: 0.2em 0.2em 3px rgba(122,122,122,0.5); 
+ color: var(--color-text);   
+}

@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <title></title>
 
-<link rel="stylesheet" href="css/all.css">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/peremennye.css">
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/banner.css">
 <link rel="stylesheet" href="css/whatdo.css">
@@ -12,6 +14,9 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/testimonials.css">
 <link rel="stylesheet" href="css/client.css">
+<link rel="stylesheet" href="css/teem.css">
+<link rel="stylesheet" href="css/footer.css">
+    
 
     
 </head>
@@ -21,9 +26,9 @@
 <header class="page_header">
    
      <!-- <h1 class="visually-hidden">Заголовок</h1> <!-- Этот класс нужно прописать в цсс как скрытый-->
-    <section class="header">
+    <div class="header">
     <div class="header-wrap"> 
-        <div class="menu">
+       
 <nav class="navigation_wrap">
 <ul class="navigation navigation-main">
 <li class="navigation_item"><a href="#" class="navigation_link">Home</a></li>
@@ -31,42 +36,43 @@
 <li class="navigation_item"><a href="#" class="navigation_link">Testimorial</a></li>
 <li class="navigation_item"><a href="#" class="navigation_link">Contact us</a></li>
     </ul>
-</nav></div>
+</nav>
       <div class="search">
 <form action="#"  method="post" method="action">
-  <input id="search_btn" type="text" name="Search_btn" value="Search...">
+  <input id="search_btn" type="text" name="Search_btn" placeholder="Search...">
   <button  id="btn_sub" type="submit"></button>
-</form>
-        </div>  
-  
+</form>  
+  </div>
      <div class="brand">
     <div class="brand_logo"><a href="#" class="brand_link" >
         Switch</a></div>
     </div> 
-     
-       </div>
-        </section>
+     </div>
+        </div>
 </header>
     
 <!--/header-->
     
+    <!--MAINE-->
+    
+    <main class="page_content">
+        
     <!-- banner-->
         
-        <section class="banner" ><div class="wrapper">
+        <section class="banner" >
     <h2><span class="art">Art is Eternal Happiness</span></h2>
         <a href="#" class="btn">WORK WITH US</a>
-            </div> </section>
+         </section>
     <!-- /baner-->
     
-<!--Page Header End-->
     
     
     
     <!-- What we do -->
     <section class="whatdo">
     <div class="container">
-        <h2 class="whatdo_title">WHAT WE DO</h2>
-        <p class="whatdo_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p><div class="wrapper">
+        <h2 class="whatdo_title title_section">WHAT WE DO</h2>
+        <p class="whatdo_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor</p><div class="wrapper">
         <div class="whatdo_slider">
         <ul class="contentslider">
             <li class="contentslider_public">
@@ -107,8 +113,8 @@
     
     <section class="lateskwork">
     <div class="conteiner">
-        <h2 class="latestwork_title">OUR LATEST WORK</h2>
-        <p class="latestwork_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+        <h2 class="latestwork_title title_section">OUR LATEST WORK</h2>
+        <p class="latestwork_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
         <form class="latestwork_categories" name="latestwork" action="#" method="post">
           <label class="latestwork_filter one">
             <input type="radio" name="filter" value="photography" checked>
@@ -122,7 +128,7 @@
             <input type="radio" name="filter" value="print">
             <span>Print</span>
             </label>
-            <button class="btn btn-filter" type="submit">View more work</button></form>
+            <button class="btn-filter" type="submit" >View more work</button></form>
         <div class="latestwork_wrap">
              
             <ul class="latestwork_list">
@@ -200,8 +206,8 @@
     
     <section class="testimonials">
 <div class="testimonials_conteiner">
-<h2 class="testimonials_title">TESTIMONIALS</h2>
-        <p class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+<h2 class="testimonials_title title_section">TESTIMONIALS</h2>
+        <p class="testimonials_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
 </div>
 <div id="testimonials_slider" class="slider">
         <div class="slider_wrapper">
@@ -223,8 +229,8 @@
     
     <section class="client">
 
-        <h2 class="client_title">OUR HAPPY CLIENT</h2>
-        <p class="client_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+        <h2 class="client_title title_section">OUR HAPPY CLIENT</h2>
+        <p class="client_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
         <div class="client_wrapper">
         <ul class="client_list">
           <li class="client_logo">
@@ -276,8 +282,183 @@
             </div>
           </li>
         </ul> 
+            <form class="client_btn" name="client" action="#" method="post">
+<button class="btn_client " type="submit">See all client</button></form>
 </div>
     </section>
+    
+    <!--/cient-->
+    
+    <!-- Team-->
+    
+    <section class="team">
+        <div class="team_wrapper">
+    <h2 class="team_title title_section">MEET THE TEAM</h2>
+        <p class="team_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+        
+            
+        <ul class="team_list">
+            
+          <li class="team_photo"><div class="img_box">
+              <img class="photo_img img_memberone" src="img/Krisna.jpg" alt="image"></div>
+              <p class="name">Krisna Wijaya
+              </p>
+<div class="social">
+             <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+          </li>
+<li class="team_photo"><div class="img_box">
+    <img class="photo_img img_membertwo" src="img/GabrielYousha.jpg" alt="image"></div>
+    <p class="name">Gabriel Yoshua
+    </p>
+<div class="social">
+            <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+          </li>
+               <li class="team_photo"><div class="img_box">
+                   <img class="photo_img img_memberthree" src="img/Adik.jpg" alt="image"></div>
+                   <p class="name">Adik N.K.L.
+                   </p>
+<div class="social">
+              <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+          </li>
+               <li class="team_photo"><div class="img_box">
+        <img class="photo_img img_memberfour" src="img/Zan.jpg" alt="image"></div>
+                   <p class="name">Zan D.J.
+                   </p>
+<div class="social">
+             <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+          </li>
+               <li class="team_photo"><div class="img_box">
+        <img class="photo_img img_memberfive" src="img/ferbi.jpg" alt="image"> </div> <p class="name">Faizal Ferbi
+                   </p>
+<div class="social">
+              <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+          </li>
+            </ul> </div>
+            <div class="footer_team">
+        <a href="#" class="btn btn_sectionteam">WORK WITH US</a>
+       
+        </div>
+    </section>
+    <!-- /team-->
+    </main>
+    <!--/MAIN-->
+    
+    <!-- FOOTER-->
+    <footer class="page_footer">                                        
+    <div class="about_us">
+        <div class="about_wrapper">
+    <div class="aboutus">
+        <h2 class="about title_mini">ABOUT US</h2>
+        <p class="about about_description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus </p>
+        <div class="social">
+             <a href="#" class="social_link icon1-link"><span class="visually-hidden">facebook</span></a>
+    <a href="#" class="social_link icon2-link"><span class="visually-hidden">Be</span></a>
+    <a href="#" class="social_link icon3-link"><span class="visually-hidden">twitter</span></a>
+            </div>
+        </div>
+        
+        
+        <div class="recents_post">
+        <h2 class="recent title_mini">RECENT POSTS</h2>
+        <ul class="posts_list">
+          <li class="list_lastpost">
+              <div class="img_post img_one"></div>
+            <p class="about_post"><span>Lorem Ipsum Dolor Sit Amet.</span>
+                      </p>
+                      
+              <a href="#" class="button_post buttonpost_one">MAGAZINE</a>                    
+            </li>
+            <li class="list_lastpost">
+              <div class="img_post img_two"></div>
+            <p class="about_post">Lorem Ipsum Dolor Sit Amet.
+                      </p>
+                      
+              <a href="#" class="button_post buttonpost_two">UI DESIGN</a>
+                               
+            </li>
+            <li class="list_lastpost">
+              <div class="img_post  img_three"></div>
+            <p class="about_post">Lorem Ipsum Dolor Sit Amet.
+                      </p>
+                      
+              <a href="#" class="button_post buttonpost_three">PHOTOGRAPHY</a>
+                              
+            </li>
+            <li class="list_lastpost">
+              <div class="img_post img_four"></div>
+            <p class="about_post">Lorem Ipsum Dolor Sit Amet.
+                      </p>
+                      
+              <a href="#" class="button_post buttonpost_four">BOOK</a>
+                                 
+            </li>
+            <li class="list_lastpost">
+              <div class="img_post img_five"></div>
+            <p class="about_post">Lorem Ipsum Dolor Sit Amet.
+                </p>
+              <a href="#" class="button_post buttonpost_five">UI DESIGN</a>
+                                
+            </li>
+            </ul></div>
+        <div class="contact">
+        
+        <div class="contact_us">
+            <h2 class="contacts title_mini">CONTACT US</h2>
+            <p class="text_adress">10044 West 23th Street, Suite 721<br>
+            New York NY 10010<br>
+Email: Username@email.com<br>
+Phone: +1 (0) 123 4567 890<br>
+Fax: +1 (0) 321 4567 890</p></div>
+        <div class="contact_us">
+        <form id="form">
+       <label for="name"></label><input id="name" type="name" class="menu" placeholder="Your Name..." required><br>
+       <label for="mail"></label><input id="mail" type="mail" class="menu" placeholder="Your Email..." required><br>
+            <label for="mesage"></label><textarea id="mesage" type="text" class="menu" placeholder="Your Mesage.." required></textarea><br>
+            </form>
+            <div class="button">
+<label class="reg" for="button"><input id="button" form="form" type="submit" value="SEND"></label>
+</div>
+        </div>
+ </div>
+        </div>
+    </div>
+        <div class="page_end">
+        <div clss="fotter_wrapper">
+    <h2 class="end_title title_section">AS SEEN ALL</h2>
+            <div class="news_icon">
+        <ul class="news_list">
+            <li class="news news_one">
+                <img class="view_img" src="img/cnn.png" alt="image">
+            </li> 
+            <li class="news news_two">
+                <img class="view_img" src="img/techCrunch.png" alt="image"></li>
+            <li class="news news_three">
+                <img class="view_img" src="img/BBC.png" alt="image"></li>
+            <li class="news news_four">
+                <img class="view_img" src="img/the_New_York_Times.png" alt="image"></li>
+            </ul>
+       </div>
+        </div>
+        </div>
+    </footer>
+    
+    
+    <!--/FOOTER-->
 </body>
 
 
