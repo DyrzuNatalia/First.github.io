@@ -1,3 +1,9 @@
+:root{
+--color-text: #fff;
+--main-buttoncolor: #54d154;
+--background-color: #54d154;       
+}
+
 
 .page_header
 .header-wrap
@@ -24,6 +30,12 @@ header{
     z-index: 99;
     
 }
+/*
+.header{
+position: fixed;
+width: 100%;
+}
+*/
 body{
 font-family: 'Montserat', sans-serif;
     font-size: 16px;
