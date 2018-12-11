@@ -1,35 +1,59 @@
 @font-face {
-  font-family: 'Nautilus Pompilius';
-  src: url('../fonts/nautiluspompilius.eot');
-  src: url('../font/nautiluspompilius.eot?#iefix') format('embedded-opentype'),
-       url('../font/nautiluspompilius.woff2') format('woff2'),
-       url('../font/nautiluspompilius.woff') format('woff'),
-       url('../font/nautiluspompilius.ttf') format('truetype'),
-       url('../font/nautiluspompilius.svg') format('svg');
+  font-family: 'NautilusPompilius';
   font-weight: normal;
   font-style: normal;
-}
-@font-face {
-  font-family: 'ProximaNova-Regular';
-  src: url('../fonts/ProximaNova-Regular.eot');
-  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
-       url('../fonts/ProximaNova-Regular.woff') format('woff'),
-       url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
-       url('../fonts/Gotham/Gotham-Bold/Gotham-Bold.svg#Gotham-Bold') format('svg'),
-       url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../fonts/nautilus-webfont.woff2') format('woff2'),
+       url('../fonts/nautilus-webfont.woff') format('woff');
+
 }
 
+
+
+
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat.eot');
-  src: url('../fonts/Montserrat.woff2') format('woff2'),
-       url('../fonts/Montserrat.woff') format('woff'),
-       url('../fonts/Montserrat.ttf') format('truetype'),
-       url('../fonts/Montserrat.svg#Gotham-Book') format('svg'),
-       url('../fonts/Montserrat.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'proxima_novaregular';
+    src: url('proximanova-regular-webfont.woff2') format('woff2'),
+         url('proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('ofont.ru_proxima_nova-webfont.woff2') format('woff2'),
+         url('ofont.ru_proxima_nova-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

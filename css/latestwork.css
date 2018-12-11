@@ -45,8 +45,8 @@ height: 749px;
   margin: 0 auto;
   margin-bottom: 15px;
     padding-top: 40px;
-  font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  font-family: 'montserratregular', sans-serif;
+    font-weight: normal;
     font-size: 20,54px;
     letter-spacing: 5px; 
     color: #828181;
@@ -87,8 +87,8 @@ font-size: 17px;
   
   display: inline-block;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'montserratregular', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   line-height: 32px;
   text-transform: capitalize;
@@ -148,6 +148,7 @@ overflow: hidden;
   width: 160px;
     height: 160px;
   margin: 18px;
+    position: relative;
 }
 
 .btn-filter {
@@ -158,7 +159,7 @@ background-color: #2b9b2b;
     height: 40px;
     width: 175px;
     text-align: center;
-    color: #fff;
+    color: var(--color-text);
     font-family: 'Proxima Nova Light', sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -178,8 +179,57 @@ margin: 0 auto;
 content: "\2192";
 display: inline-block; 
 font-size: 18px; 
-font-family: "Proxima Nova", sans-serif;
-color: #fff;
+font-family: 'proxima_novalight', sans-serif;
+color: var(--color-text);
 margin-left: 5px;
 }
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+    
+}
+
+.latestwork_project:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .7);
+    
+}
+.read_more {
+  position: absolute;
+  width: 160px;
+  left:0;
+  top: 65px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.read_more a {
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  color: var(--color-text);
+  border: solid 2px #fff;
+  z-index: 1;
+text-decoration: none;
+}
+
+.latestwork_project:hover .read_more {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
   

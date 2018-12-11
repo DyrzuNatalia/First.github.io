@@ -32,7 +32,7 @@ width: 310px;
     padding-bottom: 30px;
 }
 .title_mini {
-    font-family: "Proxima Nova" sans-serif;
+    font-family: 'proxima_novaregular', sans-serif;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 3px; 
@@ -64,7 +64,7 @@ display: none;
 .about_description,
 .about_post,
 .text_adress{
-font-family: 'Montserrat', sans-serif;
+font-family: 'montserratregular', sans-serif;
 font-size: 14px;
 line-height: 20px;
 font-weight: 100;
@@ -121,7 +121,7 @@ position: absolute;
     left: 61px;
     text-decoration: none;
     border-radius: 2px;
-    font-family: "Montserat" sans-serif;
+    font-family: 'montserratregular', sans-serif;
     font-size: 12px;
     color: var(--color-text);
     padding: 4px;
@@ -205,7 +205,7 @@ opacity: 0.96;*/
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.9);  
+  background-color: rgba(0,0,0,0.5);  
   z-index: 1;
 }
 .end_title{
