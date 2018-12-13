@@ -57,17 +57,17 @@ list-style: none;
 .view_img{
 display: block;
 margin: auto;
-cursor: pointer;
-
+    cursor: pointer;
 }
+
 
 .client_btn{
 
  padding-top: 20px;   
-    
+
 }
 .btn_client{
-
+ cursor: pointer;
 bottom: 0;
 display: block;
 margin: 0 auto;

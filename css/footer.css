@@ -208,6 +208,15 @@ opacity: 0.96;*/
   background-color: rgba(0,0,0,0.5);  
   z-index: 1;
 }
+.contact_us a {
+text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+}
+.contact_us a:hover{
+color: #2b9b2b;
+}
+
 .end_title{
 font-size: 14px;
     position: relative;

@@ -25,7 +25,7 @@ min-height: 575px;
 }
 
 .team_list,
-photo_img{
+.photo_img{
 list-style: none;
 }
 
@@ -161,6 +161,7 @@ position: absolute;
   background: rgba(0, 0, 0, 0);
   transition: background 0.5s ease;
 }
+/*
 .view_zoom {
   
   border: none;
@@ -183,6 +184,8 @@ position: absolute;
   background: rgba(0, 0, 0, .5);
   
 }
+
+ Для оверлей и лупы 
 .view_zoom {
   position: absolute;
   width: 20px;
@@ -204,32 +207,38 @@ position: absolute;
   z-index: 1;
 }
 
+
 .photo_wrap:hover .view_zoom {
   opacity: 1;
 }
-.img_box img {
- -moz-transition: all 0.5s ease-out;
- -o-transition: all 0.5s ease-out;
- -webkit-transition: all 0.5s ease-out;
+*/
+.img_box .photo_img,
+.img_box
+{
+ -moz-transition: all 1.5s ease-out;
+ -o-transition: all 1.5s ease-out;
+ -webkit-transition: all 1.5s ease-out;
  }
  
-.img_box img:hover{
+.img_box:hover,
+.img_box .photo_img:hover{
  -webkit-transform: scale(1.3);
  -moz-transform: scale(1.3);
  -o-transform: scale(1.3);
+/*transform: translateY(10px);*/
+ }
 
- }
-.img_box{
+/*.img_box{
  -moz-transition: all 0.5s ease-out;
  -o-transition: all 0.5s ease-out;
  -webkit-transition: all 0.5s ease-out;
- }
+ }*/
  
-.img_box:hover{
+/*.img_box:hover{
  -webkit-transform: scale(1.3);
  -moz-transform: scale(1.3);
  -o-transform: scale(1.3);
- }
+ }*/
 
 
 

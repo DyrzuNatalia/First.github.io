@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="css/whatdo.css">
 <link rel="stylesheet" href="css/latestwork.css">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/testimonials.css">
+<link rel="stylesheet" href="css/slider_test.css">
 <link rel="stylesheet" href="css/client.css">
 <link rel="stylesheet" href="css/teem.css">
 <link rel="stylesheet" href="css/footer.css">
@@ -206,17 +206,34 @@
         <p class="testimonials_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
 </div>
 <div id="testimonials_slider" class="slider">
+        <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+        <input id="slide-02" class="slider_switch" type="radio" name="switch">
+        <input id="slide-03" class="slider_switch" type="radio" name="switch">
         <div class="slider_wrapper">
           <ul class="slider_content container">
-            <li class="slider_slide slider_slide-01">
+            <li class="slider_slide slider_slide-01" >
+              <p class="testimonials_slogan">
+                "Awalnya saya tidakmenderia penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongraf, saya dinyatakan <br>tidak menderita penyakit apapun!"</p>
+                <p class=" author">Mr.Herp<br><span class="prof">CEO of Meme, Inc.</span></p>
+            </li>
+              <li class="slider_slide slider_slide-02">
+              <p class="testimonials_slogan">
+                "Awalnya saya tidakmenderia penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongraf, saya dinyatakan <br>tidak menderita penyakit apapun!"</p>
+                <p class=" author">Mr.Herp<br><span class="prof">CEO of Meme, Inc.</span></p>
+            </li>
+              <li class="slider_slide slider_slide-03">
               <p class="testimonials_slogan">
                 "Awalnya saya tidakmenderia penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongraf, saya dinyatakan <br>tidak menderita penyakit apapun!"</p>
                 <p class=" author">Mr.Herp<br><span class="prof">CEO of Meme, Inc.</span></p>
             </li>
             </ul>
+            <label class="slider_indicator" for="slide-01"></label>
+            <label class="slider_indicator" for="slide-02"></label>
+            <label class="slider_indicator" for="slide-03"></label>
+            </div>
             <button class="slider_btn slider_btn-prev" type="button">&#8249;</button>
         <button class="slider_btn slider_btn-next" type="button">&#8250;</button>
-    </div>
+    
         </div>
 </section>
 <!-- /Testimonials--> 
@@ -227,55 +244,56 @@
 
         <h2 class="client_title title_section">OUR HAPPY CLIENT</h2>
         <p class="client_description description_section">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet</p>
+        
         <div class="client_wrapper">
         <ul class="client_list">
           <li class="client_logo">
-        <img class="view_img" src="img/Googlelogo_1.png" alt="image">
-<div class="view_overlay">
-              <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+        
+
+              <a href="#" class="view_link icon-link"><img class="view_img" src="img/Googlelogo_1.png" alt="image"><span class="visually-hidden">перейти</span></a>
+            
           </li>
 <li class="client_logo">
         <img class="view_img" src="img/Yahoo_Logo_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+        
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/MSFT_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+            
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/Intel-logo_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+            
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/qual_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+          
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/Cisco_logo_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+            
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/Apple-logo_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+            
           </li>
                 <li class="client_logo">
         <img class="view_img" src="img/asus_logo_1.png" alt="image">
-<div class="view_overlay">
+
               <a href="#" class="view_link icon-link"><span class="visually-hidden">перейти</span></a>
-            </div>
+           
           </li>
         </ul> 
             <form class="client_btn" name="client" action="#" method="post">
@@ -295,12 +313,11 @@
             
         <ul class="team_list">
             
-          <li class="team_photo"><div class="photo_wrap"><div class="img_box">
+          <li class="team_photo"><div class="img_box">
               <img class="photo_img img_memberone" src="img/Krisna.jpg" alt="image">
               </div>
-              <div class="view_overlay"></div>
-              <button class="view_zoom icon-search-1" type="button"><span class="visually-hidden">увеличить</span></button>
-            </div>
+              <!--<div class="view_overlay"></div>
+              <button class="view_zoom icon-search-1" type="button"><span class="visually-hidden">увеличить</span></button>--> 
               <p class="name">Krisna Wijaya
               </p>
               
@@ -423,8 +440,8 @@
             <h2 class="contacts title_mini">CONTACT US</h2>
             <p class="text_adress">10044 West 23th Street, Suite 721<br>
             New York NY 10010<br>
-Email: Username@email.com<br>
-Phone: +1 (0) 123 4567 890<br>
+                <a href="mailto:yourmail@mysite.com">Email: Username@email.com</a><br>
+<a href="tel: +1 (0) 123 4567 890">Phone: +1 (0) 123 4567 890</a><br>
 Fax: +1 (0) 321 4567 890</p></div>
         <div class="contact_us">
         <form id="form">
@@ -467,6 +484,7 @@ Fax: +1 (0) 321 4567 890</p></div>
     <!--  JAVA SCRIPTS  -->
 <script src="js/ScrollDovn.js"></script>
 <script src="js/Sticky_header.js"></script>
+<script src="js/slider_testimonials.js"></script>
 
 </body>
 

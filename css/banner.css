@@ -37,6 +37,9 @@ font-family:
     padding-top: 12px;
     color: var(--color-text);
 }
+.btn:hover{
+box-shadow: 0 0 15px #ffff;
+}
 .scroll_down {
     position: absolute;
    right: 0;
