@@ -9,7 +9,7 @@
     (function scroll() {
       if (window.pageYOffset < windowCoords) {
         window.scrollBy(0, 200);
-        setTimeout(scroll, 0);
+        setTimeout(0, 0);
       }
       if (window.pageYOffset > windowCoords) {
        
